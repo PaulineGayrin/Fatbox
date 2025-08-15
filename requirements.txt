@@ -1,5 +1,3 @@
-Requirements
-
 conda install conda-forge::earthpy
 conda install anaconda::git
 
