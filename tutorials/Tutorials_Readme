@@ -1,0 +1,64 @@
+# Read me Fatbox tutorials
+
+## Tutorials
+To help you getting started with Fatbox, 3 tutorial folders are available. They contain workflows made in collaboration with specialists of the topics and used in published work. You can run the notebooks to understand the step by step process. 
+Feel free to include code bits in your own workflow, the material is made to be used. I advise you to check at all the applications as the codes are complementary. 
+
+The 3 folders recall the main applications of Fatbox:
+- *analog_modelling*
+
+- *numerical_modelling*
+
+- *digital_elevation_models*
+
+For each tutorial, a Jupyter notebook is available.
+The .ipynb can be executed in Google Colab or locally in you Jupyter Notebook environment.
+
+**To use in Google Colab:**
+- create a "Fatbox" folder in your goodgle drive
+- upload the /modules of Fatbox in a subfolder ("/content/drive/MyDrive/Fatbox/modules")
+- download the /tutorials folder in another subfolder ("/content/drive/MyDrive/Fatbox/tutorials"). You may download only the subforders of the desired application (eg. ~/tutorials/analog).
+Once you have the the library and the tutorials, you can execute the notebooks.
+
+**To use locally:**
+Requirement: download Anaconda
+https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
+
+In the anaconda prompt (Windows) or in Terminal (Mac OS)
+Create new environement with basic packages of anaconda
+*conda create --name fatbox_env anaconda*
+
+Activate environement: *conda activate fatbox_env*
+
+Install the packages from the file *requirements.txt* (located in Fatbox folder).
+
+Install opencv 
+*pip install opencv-python*
+Note: never install opencv using conda, it crash the environment
+
+On Windows, Cv algorithms is usually difficult to install, thankfully the solution is easy. 
+Error you might get: Failed building wheel for cv-algorithms
+Solution 
+Go to https://github.com/ulikoehler/cv_algorithms/tree/master
+Download the zip file (green button <> Code)
+At the end of the import in the tutorials, and in preprocessing, uncomment or add the following command:
+*sys.path.append("C:\\Users\\your_directory\\cv_algorithms-master\\cv_algorithms-master\\cv_algorithms")*
+Write the directory of the library cv_algorithms you just downloaded instead of *your_directory*. The total path is the directory where the _init_.py file of cv_algorithm is located.
+
+You can then open the tutorial using Jupyter Notebook.
+
+## Contact and contribution
+
+Contributions are welcome using Pull request.
+To ask questions or give feedback send an Issue so everyone can learn from your experience.
+
+Fatbox is a project initiated by Pauline Gayrin and Dr. Thilo Wrona under the supervision of Prof. Dr. Sascha Brune.
+Contact: Pauline Gayrin  -> gayrin@gfz.de
+
+## License
+
+Creative Commons Attribution 4.0 International
+
+## Citation
+If you use this project in your research or wish to refer to the results of the tutorials.
+Gayrin, P., Wrona, T., & Brune, S. (2025). Fatbox, the fault analysis toolbox (1.1). GFZ Helmholtz Centre for Geosciences. https://doi.org/10.5281/zenodo.15716080
