@@ -7,7 +7,7 @@ The tutorials show the application of Fatbox to 3 cases:
 - The numerical model tutorials use a basic rift forward model, provided by D. Neuharth. Using the strain data, we show how to map, analyse and track active faults through time, during the rift extension modeled. 
 - In the analogue models tuto, we explain step by step how to map and analyse the faults from elevation and PIV data. This part show also the fault tracking as the model evolve.
 
-The tutorials are available in .py for local adaptation and .ipynb to get started, withe plenty of comments.
+The tutorials are available as .ipynb to get started.
 
 Contributions are welcome using Pull request.
 To ask questions or give feedback send an Issue so everyone can learn from your experience.
@@ -15,8 +15,7 @@ To ask questions or give feedback send an Issue so everyone can learn from your 
 I wish you a lot of fun and good science!
 
 Fatbox is a project initiated by Pauline Gayrin and Dr. Thilo Wrona under the supervision of Prof. Dr. Sascha Brune.
-
-Contact: Pauline Gayrin  -> PaulineGayrin@protonmail.com
+Contact: Pauline Gayrin  -> gayrin@gfz.de
 
 ## Getting started
 
@@ -42,12 +41,11 @@ The 3 tutorial folders illustrate the main applications of Fatbox:
 
 - *numerical_modelling*
 
-- *topography*
+- *digital_elevation_models*
 
-For each of them, you have a Jupyter python notebook where the workflow is detailed step by step. My advice: check this if you're a beginner coder and/or don't know Fatbox.
-And an executable .py python script, with same content as the notebooks but less explaination. The scripts are designed to give you a good basis to adapt to your data. 
+For each of them, you have a Jupyter python notebook where the workflow is detailed step by step. My advice: check this if you're a beginner coder and/or don't know Fatbox. The Notebooks can be executed in Google Colab or lacally on Jupyter notebook.
 
-### Install
+### Installation
 
 I recommend coupling your computer with your github account to always get the latest version of Fatbox and have access offline.
 You can then open the jupyter notebook and python scripts locally.
@@ -68,7 +66,7 @@ Create new environement with basic packages of anaconda
 
 Activate environement: *conda activate fatbox_env*
 
-Install the packages from the file *requirements.txt*
+Install the packages from the file *requirements.txt* (located in Fatbox folder)
 
 Install opencv 
 *pip install opencv-python*
@@ -84,9 +82,12 @@ Uncomment the following line.
 *sys.path.append("C:\\Users\\your_directory\\cv_algorithms-master\\cv_algorithms-master\\cv_algorithms")*
 Write the directory of the library cv_algorithms you just downloaded instead of *your_directory*. The total path is the directory where the _init_.py file of cv_algorithm is located.
 
-### License
+## License
 
 Creative Commons Attribution 4.0 International
+
+## Acknowledgment
+A huge thanks to Thilo Wrona for the collaboration and support on the developpment of Fatbox. Special thanks to Nicolas Molnar and Derek Neuharth for the contribution to the analogue and numerical tutorials and access to their model's data. Thank to Sascha Brune for the supervision and support. The developper thank Baptiste Bordet for his huge support along the way and help on debug. Thank to Tim Hake, who contributed to a former version of the fault extraction workflow.
 
 ## Citation
 
