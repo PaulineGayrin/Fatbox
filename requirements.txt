@@ -1,4 +1,4 @@
 conda install conda-forge::earthpy
-conda install anaconda::git
+conda install conda-forge::git
 
 pip install vtk

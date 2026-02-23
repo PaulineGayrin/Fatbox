@@ -57,16 +57,27 @@ Download fatbox at this location
 Download the Colab tutorials at the same location. 
 
 #### Install locally using conda
-Requirement: download Anaconda
-https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
+**Possibility 1: Use Anaconda** 
+Download Anaconda [here](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
 
-In the anaconda prompt (Windows) or in Terminal (Mac OS)
+Then in the anaconda prompt 
 Create new environement with basic packages of anaconda
 *conda create --name fatbox_env anaconda*
 
-Activate environement: *conda activate fatbox_env*
+**Possibility 2: Use Miniforge** 
+Download and install instructions [here](https://github.com/conda-forge/miniforge)
+
+Next in the miniforge prompt
+*conda create -c conda-forge -n fatbox_env*
+
+**Then**
+Activate environment: *conda activate fatbox_env*
 
 Install the packages from the file *requirements.txt* (located in Fatbox folder)
+*conda install --yes --file requirements.txt* 
+
+If the installation of earthpy bug, execute in the prompt directly 
+*conda install conda-forge::earthpy* then *conda install conda-forge::git* and *pip install vtk* and *conda install conda-forge::tqdm* *conda install conda-forge::seaborn*
 
 Install opencv 
 *pip install opencv-python*
@@ -75,7 +86,7 @@ Note: never install opencv using conda, it crash the environment
 On Windows, Cv algorithms is usually difficult to install, thankfully the solution is easy. 
 Error you might get: Failed building wheel for cv-algorithms
 Solution 
-Go to https://github.com/ulikoehler/cv_algorithms/tree/master
+Go on [Uli Koehler Github] (https://github.com/ulikoehler/cv_algorithms/tree/master)
 Download the zip file (green button <> Code)
 At the end of the import in the tutorials, and in preprocessing:
 Uncomment the following line. 
