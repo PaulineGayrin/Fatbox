@@ -1,18 +1,17 @@
 ## Welcome on Fatbox v2.0, the Fault analysis toolbox
 
-Fatbox, the fault analysis toolbox is an open-source Python library that integrates semi-automated fault extraction with automated geometric and kinematic analysis of fault networks. Fatbox gathers about 150 Python functions to map and analyze faults from various datasets, typically topography and strain data. The library is versatile, documented and can be adapt the specific needs of you project.
+Fatbox the fault analysis toolbox is an open-source Python toolbox. It integrates semi-automated fault extraction with automated geometric and kinematic analysis of fault networks. The library includes about 150 Python functions for mapping and analyzing faults from various datasets, such as topography and strain data. Fatbox is versatile, well-documented, and can be adapted to the specific needs of your project.
 
-The tutorials show the application of Fatbox to 3 cases:
-- The DEM tutorials show the semi automated mapping and the structural analysis on a little area of the East African Rift. A second tutorial explain how to import a mapping made by hand, extract as network and analyse the faults automatically with the same functions.
-- The numerical model tutorials use a basic rift forward model, provided by D. Neuharth. Using the strain data, we show how to map, analyse and track active faults through time, during the rift extension modeled. 
-- In the analogue models tuto, we explain step by step how to map and analyse the faults from elevation and PIV data. This part show also the fault tracking as the model evolve.
+The tutorials demonstrate the application of Fatbox through three practical cases:
+- DEM Tutorials: The first tuto shows the semi-automated mapping and structural analysis of a small area in the East African Rift. A second tutorial explains how to import a manually created map, extract a fault network, and automatically analyze the faults using the same functions.
+- Numerical Model Tutorials: Using a basic rift forward model provided by Dr. D. Neuharth, these tutorials illustrate how to map, analyze, and track active faults over time during modeled rift extension, using strain data.
+- Analogue Model Tutorials: These provide a step-by-step guide on how to map and analyze faults from elevation and PIV data. This section also covers fault tracking as the model evolves.
 
-The tutorials are available as .ipynb to get started.
+The tutorials are available as Jupyter notebooks (.ipynb) to help you get started.
 
-Contributions are welcome using Pull request.
-To ask questions or give feedback send an Issue so everyone can learn from your experience.
+Contributions are welcome via Pull Requests. To ask questions or provide feedback, please open an Issue so everyone can benefit from your experience.
 
-I wish you a lot of fun and good science!
+Have fun and enjoy your scientific discoveries!
 
 Fatbox is a project initiated by Pauline Gayrin and Dr. Thilo Wrona under the supervision of Prof. Dr. Sascha Brune.
 Contact: Pauline Gayrin  -> gayrin@gfz.de
@@ -98,7 +97,7 @@ Write the directory of the library cv_algorithms you just downloaded instead of 
 Creative Commons Attribution 4.0 International
 
 ## Acknowledgment
-A huge thanks to Thilo Wrona for the collaboration and support on the developpment of Fatbox. Special thanks to Nicolas Molnar and Derek Neuharth for the contribution to the analogue and numerical tutorials and access to their model's data. Thank to Sascha Brune for the supervision and support. The developper thank Baptiste Bordet for his huge support along the way and help on debug. Thank to Tim Hake, who contributed to a former version of the fault extraction workflow.
+A huge thanks to Thilo Wrona for the collaboration and support on the developpment of Fatbox. Special thanks to Nicolas Molnar and Derek Neuharth for the contribution to the analogue and numerical tutorials and access to their model's data. Thank to Sascha Brune for the supervision and support. The developper thank Baptiste Bordet for his huge support along the way and help on debugging. Thank to Tim Hake, who contributed to a former version of the fault extraction workflow.
 
 ## Citation
 
