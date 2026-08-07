@@ -10,6 +10,7 @@ The tutorials demonstrate the application of Fatbox through three practical case
 The tutorials are available as Jupyter notebooks (.ipynb) to help you get started.
 
 Contributions are welcome via Pull Requests. To ask questions or provide feedback, please open an Issue so everyone can benefit from your experience.
+User-visible additions and corrections are recorded in [CHANGELOG.md](CHANGELOG.md).
 
 Have fun and enjoy your scientific discoveries!
 
@@ -19,14 +20,20 @@ Contact: Pauline Gayrin  -> gayrin@gfz.de
 ## Getting started
 
 ### Modules
-Fatbox functions are grouped in 6 different Python scripts that follow a typical sequential workflow. 
-The 6 scripts of the library are accessible in the folder */modules*.
+Fatbox functions are grouped in 7 different Python scripts that follow a typical sequential workflow.
+The 7 scripts of the library are accessible in the folder */modules*.
 1. *preprocessing.py* - Prepare the dataset for fault network extraction.
 2. *edits.py* - Extract the fault network from the dataset and edit the network and its sub-networks.
 3. *metrics.py* - Compute various metrics of the fault network, such as length of the edges 
 4. *plots.py* - Visualize the fault network and results of the analysis.
 5. *utils.py* - Various low-level helper functions.
 6. *structural_analysis.py* - Measure the geometric properties of the faults.
+7. *spherical.py* - Analyse global fault and plate-boundary networks with
+   dateline-safe great-circle geometry.
+
+Installation instructions and examples are provided in the
+[spherical workflow documentation](documentation/source/spherical.rst) and
+numerical-modelling Tutorials 3 and 4.
 
 In the script, to see the documentation of a function, type in the console
 *module.function._doc_*   eg. *plots.plot_components._doc_* to get in line docstring

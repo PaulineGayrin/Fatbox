@@ -1,0 +1,23 @@
+name: fatbox-spherical
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - numpy
+  - networkx
+  - matplotlib
+  - scipy
+  - scikit-image
+  - pandas
+  - seaborn
+  - tqdm
+  - rasterio
+  - vtk
+  - pytest
+  - sphinx
+  - sphinx_rtd_theme
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - opencv-python
