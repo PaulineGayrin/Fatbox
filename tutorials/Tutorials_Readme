@@ -14,6 +14,18 @@ The 3 folders recall the main applications of Fatbox:
 For each tutorial, a Jupyter notebook is available.
 The .ipynb can be executed in Google Colab or locally in you Jupyter Notebook environment.
 
+The numerical-modelling folder follows a sequential workflow:
+- *tuto_num1_extraction_v2.ipynb* - planar fault extraction
+- *tuto_num2_correlation.ipynb* - planar fault correlation through time
+- *tuto_num3_spherical_extraction.ipynb* - global spherical strain extraction
+- *tuto_num4_spherical_correlation_slip.ipynb* - progressive spherical
+  correlation, persistent labels and interval slip
+
+The spherical tutorials use the same step-by-step convention: parameters are
+grouped in one cell, one output is explained and plotted first, and the same
+operations are then applied to multiple outputs. Their optional dependencies
+are listed in *environment-spherical.yml*.
+
 **To use in Google Colab:**
 - create a "Fatbox" folder in your goodgle drive
 - upload the /modules of Fatbox in a subfolder ("/content/drive/MyDrive/Fatbox/modules")

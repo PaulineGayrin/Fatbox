@@ -7,3 +7,5 @@ from modules import plots
 from modules import utils 
 from modules import structural_analysis
 from modules import edits
+from modules import spherical
+from modules import spherical_surface

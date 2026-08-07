@@ -1,0 +1,87 @@
+{
+  "format_version": 1,
+  "source": "Surface output from a spherical ASPECT numerical model by Michael Pons",
+  "grid_shape": [
+    180,
+    360
+  ],
+  "variables": {
+    "strain": "surface strain-rate tensor magnitude, s^-1",
+    "velocity": "Earth-centred Cartesian surface velocity, m/year"
+  },
+  "preprocessing": [
+    "outer spherical boundary selected before interpolation",
+    "point data averaged on a north-up regular longitude/latitude grid",
+    "empty grid cells filled using periodic nearest-neighbour values",
+    "arrays converted to float32 and compressed with NumPy savez"
+  ],
+  "license": "CC-BY-4.0",
+  "outputs": [
+    {
+      "number": 220,
+      "time_years": 547506259.5137,
+      "file": "spherical_surface_00220.npz",
+      "sha256": "98830e691818da3a5f21c7b58dc7ae96a2e732812d8bd2b4610fff5db9fd6178"
+    },
+    {
+      "number": 221,
+      "time_years": 550004061.0054,
+      "file": "spherical_surface_00221.npz",
+      "sha256": "41127891102105fdb873ca3f43e678c07f61d156cd0e4710c920f7aedd622795"
+    },
+    {
+      "number": 222,
+      "time_years": 552501389.9754,
+      "file": "spherical_surface_00222.npz",
+      "sha256": "bc2ba097ae993e7961c4fb229604db1e5089bdc1848d08445fa9f51705025666"
+    },
+    {
+      "number": 223,
+      "time_years": 555004733.6783,
+      "file": "spherical_surface_00223.npz",
+      "sha256": "4d2d766ed65d39e9ff2829e8a4ad55aac874b32de2b9f2605a5f8a9343f29394"
+    },
+    {
+      "number": 224,
+      "time_years": 557501880.0216,
+      "file": "spherical_surface_00224.npz",
+      "sha256": "6fcbcaa5764890629820e0476d1095ad735c451b97ef7b2b4afb181775da14c1"
+    },
+    {
+      "number": 225,
+      "time_years": 560009820.5021,
+      "file": "spherical_surface_00225.npz",
+      "sha256": "dcb7876ec0b3b48dd9d8b7c97a919bb475abee33e2a5473a46b9f003743ff97c"
+    },
+    {
+      "number": 226,
+      "time_years": 562506771.1526,
+      "file": "spherical_surface_00226.npz",
+      "sha256": "f415db6419be030439172ea1ae23935f505d76b384bcc5df71c14ada721cbc7e"
+    },
+    {
+      "number": 227,
+      "time_years": 565006453.0013,
+      "file": "spherical_surface_00227.npz",
+      "sha256": "a70a5a85ad10167941fbba8fed6eeaaa083538462192ec80196a0fa13b32abdb"
+    },
+    {
+      "number": 228,
+      "time_years": 567501289.2866,
+      "file": "spherical_surface_00228.npz",
+      "sha256": "6a23a32d0e398aa6d4cb486623fe5db1cc50b8646988ac20528fb1652efaca1d"
+    },
+    {
+      "number": 229,
+      "time_years": 570003691.0072,
+      "file": "spherical_surface_00229.npz",
+      "sha256": "adcb71e1c72befc02a25e7da5a16cffe60fc2266d76d3567831372536bd815f9"
+    },
+    {
+      "number": 230,
+      "time_years": 572503912.1824,
+      "file": "spherical_surface_00230.npz",
+      "sha256": "2764aa74fb0bcaa937fa5fe0dc4d0a557b4fa1fa0e5170e30209a4f751e71e64"
+    }
+  ]
+}
